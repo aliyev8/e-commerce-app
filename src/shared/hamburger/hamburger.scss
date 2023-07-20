@@ -1,0 +1,77 @@
+@import "../../assets/colors";
+
+.ham_container {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(47, 47, 47, 0.104);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "auto auto ham";
+  width: 100%;
+  height: 100vh;
+  z-index: 10 !important;
+
+  .data {
+    grid-area: ham;
+    padding: 16px;
+    background-color: #fff;
+
+    ul {
+      li {
+        padding: 8px 12px;
+        display: flex;
+        align-items: center;
+
+        a {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          gap: 12px;
+          color: $logo;
+
+          svg {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  &__close {
+    display: flex;
+    justify-content: end;
+
+    button {
+      background: none;
+      border: none;
+    }
+  }
+}
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .ham_container {
+    grid-template-areas: "ham";
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .item {
+    padding: 20px;
+
+    &__left {
+      display: none;
+    }
+  }
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+  /* Stil kuralları buraya gelecek */
+  .ham_container {
+    display: none;
+  }
+}

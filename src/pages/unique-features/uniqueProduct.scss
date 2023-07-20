@@ -1,0 +1,197 @@
+@import "../../assets/colors";
+
+.unique_product {
+  background-color: $unique-product-background;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  padding: 50px 32px 32px 32px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "left right";
+    gap: 32px;
+    width: 100%;
+
+    .left {
+      grid-area: left;
+      position: relative;
+
+      .image {
+        background: url("https://res.cloudinary.com/dawsyfhbt/image/upload/v1689507541/Home-Stylish-Club-Sofa-Chair-Pleated-Sofa-Armchair-with-Golden-Legs_1_f53qxj.png"),
+          rgba(211, 211, 211, 0) 50% / cover no-repeat;
+        width: 30.0625rem;
+        height: 28.10113rem;
+        flex-shrink: 0;
+        background-position: center;
+        background-size: cover;
+        z-index: 3;
+      }
+
+      .circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative !important;
+
+        svg {
+          left: -16px;
+          bottom: 29px;
+          flex-shrink: 0;
+          position: absolute;
+          width: 29.0625rem;
+          height: 27.10113rem;
+        }
+      }
+    }
+
+    .right {
+      grid-area: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px;
+      gap: 24px;
+
+      .title {
+        font-size: 2.1875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 132%; /* 2.8875rem */
+        letter-spacing: 0.03281rem;
+        color: $navy-blue;
+      }
+
+      .list_container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .green {
+          background-color: $list-green !important;
+        }
+
+        .blue {
+          background-color: $list-blue !important;
+        }
+
+        .list_item {
+          display: flex;
+          gap: 6px;
+
+          .list {
+            height: 7px;
+            width: 7px;
+            background-color: $pink;
+            border-radius: 50%;
+            padding: 1px;
+            margin-top: 3px;
+          }
+          .text {
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 132%; /* 1.32rem */
+            letter-spacing: 0.015rem;
+            color: $lorem;
+          }
+        }
+      }
+      .shop_now {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+
+        .btn {
+          background-color: $pink;
+          padding: 15px;
+          border-radius: 0.125rem;
+          color: $text-color;
+          font-weight: 400;
+          font-family: Lato;
+        }
+
+        .price {
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+
+          .info {
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.0175rem;
+            color: $navy-blue;
+          }
+          &:last-child {
+            font-size: 0.875rem;
+            color: $off-blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .unique_product {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+
+    &__container {
+      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-areas: "left" "right" !important;
+
+      .left {
+        .image {
+          width: 24.0625rem;
+          height: 24.10113rem;
+        }
+
+        .circle {
+          position: relative !important;
+          svg {
+            width: 24.0625rem;
+            height: 24.10113rem;
+            left: 32px;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .unique_product__container {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-areas: "left" "right" !important;
+
+    .left {
+      .image {
+        width: 24.0625rem;
+        height: 24.10113rem;
+      }
+
+      .circle {
+        position: relative;
+
+        svg {
+          width: 24.0625rem;
+          height: 24.10113rem;
+          left: -33px;
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+}

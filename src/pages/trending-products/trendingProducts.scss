@@ -1,0 +1,180 @@
+@import "../../assets/colors";
+@import "../../assets/mixins";
+
+.trending_product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 32px;
+
+  .title {
+    @include title_category;
+  }
+
+  .trending_product_container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    .trending_card {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+
+      .card {
+        padding: 1rem;
+        box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        cursor: pointer;
+
+        .image_container {
+          background-color: $trending-background;
+          padding: 1.6875rem 1.5625rem 1.75rem 1.5625rem;
+
+          img {
+            width: 11.6875rem;
+            height: 11.6875rem;
+            flex-shrink: 0;
+          }
+        }
+
+        .bottom {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 16px;
+
+          .price {
+            @include price;
+            font-size: 0.875rem;
+
+            .old_price {
+              color: $lorem;
+            }
+          }
+        }
+      }
+    }
+
+    .collection_container {
+      display: grid;
+      grid-template-columns: 1.5fr 1.5fr 1fr;
+      gap: 16px;
+
+      .collection_card {
+        box-shadow: 0px 8px 40px 0px rgba(49, 32, 138, 0.05);
+        display: flex;
+        flex-direction: column;
+        padding: 31px 23px;
+        position: relative;
+
+        .description {
+          font-size: 1.625rem;
+          font-style: normal;
+          font-weight: 600;
+          color: $navy-blue;
+        }
+
+        .btn {
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-decoration-line: underline;
+          color: $pink;
+          padding-top: 16px;
+          cursor: pointer;
+        }
+
+        .image {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+        }
+      }
+
+      .all_product {
+        background: var(--all_product_background);
+
+        img {
+          width: 7.3125rem;
+          height: 10rem;
+        }
+      }
+
+      .collection {
+        background: var(--collection_background);
+
+        img {
+          width: 16.5rem;
+        }
+      }
+
+      .chairs_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 12px;
+
+        .chair {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .image {
+            background-color: $trending-background;
+            img {
+              width: 4.1875rem;
+              height: 4.1875rem;
+              flex-shrink: 0;
+            }
+          }
+
+          .chair_info {
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            color: $navy-blue;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+
+            .old_price {
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .trending_card {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .collection_container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .trending_card {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .collection_container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+}

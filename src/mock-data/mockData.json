@@ -1,0 +1,512 @@
+{
+  "featuredProducts": [
+    {
+      "id": 1,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#FFEAC1"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#FFEAC1"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#FFEAC1"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#FFEAC1"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "code": "Y523201",
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
+    }
+  ],
+
+  "leatestProducts": [
+    {
+      "category": "new-arrival",
+      "id": 1,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086110/image_1166_tvchd9.webp"
+    },
+    {
+      "category": "new-arrival",
+      "id": 2,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086617/asdasd_bnvmns.png"
+    },
+    {
+      "category": "new-arrival",
+      "id": 3,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+    },
+    {
+      "category": "new-arrival",
+      "id": 4,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+    },
+    {
+      "category": "new-arrival",
+      "id": 5,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+    },
+    {
+      "category": "new-arrival",
+      "id": 6,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+    },
+    {
+      "category": "best-seller",
+      "id": 7,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+    },
+    {
+      "category": "best-seller",
+      "id": 8,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+    },
+    {
+      "category": "best-seller",
+      "id": 9,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+    },
+    {
+      "category": "featured",
+      "id": 10,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+    },
+    {
+      "category": "featured",
+      "id": 11,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+    },
+    {
+      "category": "featured",
+      "id": 12,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+    },
+    {
+      "category": "special-offer",
+      "id": 12,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+    },
+    {
+      "category": "special-offer",
+      "id": 14,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+    },
+    {
+      "category": "special-offer",
+      "id": 15,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+    }
+  ],
+
+  "trendingProducts": [
+    {
+      "category": "stand",
+      "id": 1,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585939/image_1171_rcq1o1.png"
+    },
+    {
+      "category": "stand",
+      "id": 2,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585936/image_1170_jo5arl.png"
+    },
+    {
+      "category": "stand",
+      "id": 3,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585935/image_31_zynqcg.png"
+    },
+    {
+      "category": "stand",
+      "id": 434,
+      "name": "Cantilever chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+    },
+    {
+      "category": "all_product",
+      "background": "#FFF6FB",
+      "id": 424234242,
+      "description": "23% off in all products",
+      "price": "$42.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586043/image_1162_x1be0t.png"
+    },
+    {
+      "category": "collection",
+      "background": "#EEEFFB",
+      "id": 4112333,
+      "description": "23% off in all products",
+      "price": "$42.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586042/image_1161_o0esfk.png"
+    },
+    {
+      "category": "chair",
+      "id": 41256,
+      "name": "Executive Seat chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png"
+    },
+    {
+      "category": "chair",
+      "id": 412532323236,
+      "name": "Executive Seat chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586039/image_28_mu7yet.png"
+    },
+    {
+      "category": "chair",
+      "id": 41250909096,
+      "name": "Executive Seat chair",
+      "price": "$42.00",
+      "oldPrice": "$62.00",
+      "code": "Y523201",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+@import "./colors";
+
+@mixin title_category {
+  color: $navy-blue;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin product_list_category {
+  color: $navy-blue;
+  cursor: pointer;
+  transition: 250ms all;
+  border-bottom: 1px solid transparent;
+  font-size: 1.125rem;
+  line-height: normal;
+
+  &:hover {
+    color: $pink;
+  }
+}
+
+@mixin price {
+  display: flex;
+  gap: 12px;
+
+  .new_price {
+    color: $navy-blue;
+  }
+
+  .old_price {
+    text-decoration: line-through;
+    color: $pink;
+  }
+}

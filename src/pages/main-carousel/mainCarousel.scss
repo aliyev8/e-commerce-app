@@ -1,0 +1,177 @@
+@import "../../assets/colors";
+
+.slider_container {
+  position: relative;
+  display: grid;
+  background-color: $carousel-background;
+  padding: 0 0 40px 0;
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+
+    .slick-active {
+      background-color: $pink !important;
+    }
+
+    li {
+      border: 1px solid $pink;
+      transform: rotate(0.37turn);
+      width: 8px;
+      height: 8px;
+
+      button {
+        opacity: 0;
+        width: 8px;
+        height: 8px;
+
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .slick-slider {
+    background-color: $carousel-background;
+    z-index: 1 !important;
+  }
+
+  .item {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+    z-index: 1 !important;
+
+    &__left {
+      img {
+        max-height: 200px;
+      }
+    }
+
+    &__center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+
+      .title {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.75rem;
+        color: $pink;
+      }
+
+      .subtitle {
+        color: $border;
+        font-size: 3.3125rem;
+        font-style: normal;
+        font-weight: 700;
+        max-width: 650px;
+        letter-spacing: 0.04969rem;
+      }
+
+      .lorem {
+        color: $lorem;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.75rem;
+        max-width: 500px;
+      }
+
+      button {
+        background-color: $pink;
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        max-width: 120px;
+        color: $text-color;
+      }
+    }
+
+    &__right {
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding-top: 40px;
+
+      .layer1 {
+        width: 21.6875rem;
+        height: 18.6875rem;
+        flex-shrink: 0;
+        border-radius: 40.6875rem;
+        background: rgba(236, 210, 250, 0.35);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(0.34turn);
+        position: relative;
+
+        .layer2 {
+          width: 18.6875rem;
+          height: 18.6875rem;
+          flex-shrink: 0;
+          border-radius: 40.6875rem;
+          background: rgba(236, 210, 250, 0.35);
+          position: relative;
+
+          img {
+            transform: rotate(0.66turn);
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+
+      .blue_off {
+        position: absolute;
+        transform: rotate(0.66turn);
+        left: -34px;
+        background-color: $discount;
+        padding: 17px;
+        border-radius: 92px 102px 56px 136px;
+        display: flex;
+        flex-direction: column;
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: $text-color;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  /* Small devices (mobil) */
+  @media only screen and (max-width: 600px) {
+    .item {
+      padding: 20px;
+      &__left {
+        display: none;
+      }
+      &__center {
+        display: none;
+      }
+    }
+  }
+
+  /* Medium devices (tablet) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .item {
+      padding: 20px;
+
+      &__left {
+        display: none;
+      }
+    }
+  }
+
+  /* Large devices (desktop) */
+  @media only screen and (min-width: 1025px) {
+    /* Stil kuralları buraya gelecek */
+  }
+}

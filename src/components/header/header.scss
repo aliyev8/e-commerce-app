@@ -1,0 +1,234 @@
+@import "../../assets/colors";
+
+@font-face {
+  font-family: bold;
+  src: url("../../assets/font/JosefinSans-Bold.ttf");
+}
+
+.header_container {
+  z-index: 11;
+  width: 100%;
+  background-color: $purple;
+  border-bottom: 1px solid $border;
+
+  .header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    color: $text-color;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    &__left {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      .email,
+      .phone {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        svg {
+          display: block;
+        }
+      }
+    }
+
+    &__right {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      .favs,
+      .login,
+      .cart {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: 4px;
+        transition: 250ms all;
+
+        svg {
+          display: block;
+        }
+
+        &:hover {
+          border: 1px solid $text-color;
+          border-radius: 4px;
+        }
+      }
+
+      .cart_animation {
+        svg {
+          animation: wiggle 2s linear infinite;
+
+          path {
+            fill: $price-tag-color;
+          }
+        }
+      }
+    }
+
+    .wishing {
+      svg {
+        animation: wiggle 2s linear infinite;
+
+        path {
+          fill: $price-tag-color !important;
+        }
+      }
+    }
+
+    @keyframes wiggle {
+      0%,
+      7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+        transform: scale(1.1);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+        transform: scale(1.2);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+        transform: scale(1.3);
+      }
+      40%,
+      100% {
+        transform: rotateZ(0);
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+
+  &__left {
+    font-family: bold;
+    color: $logo;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__center {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+
+      li {
+        color: $logo;
+        transition: 250ms all;
+        cursor: pointer;
+
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+
+    input,
+    button {
+      height: 2.5rem;
+    }
+
+    input {
+      border: 2px solid $gray-border;
+      border-right: none;
+      padding: 0 12px;
+      min-width: 300px;
+    }
+
+    button {
+      border: none;
+      background: $pink;
+      padding: 0 8px;
+    }
+  }
+}
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .header_container {
+    border: none;
+
+    .header_top {
+      display: none !important;
+    }
+
+    .hamburger_menu {
+      display: flex;
+    }
+  }
+
+  .header_bottom {
+    &__center {
+      display: none;
+    }
+    &__right {
+      display: none;
+    }
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .header_container {
+    border: none;
+
+    .header_top {
+      display: none !important;
+    }
+
+    .hamburger_menu {
+      display: flex;
+    }
+  }
+
+  .header_bottom {
+    &__center {
+      display: none;
+    }
+    &__right {
+      display: none;
+    }
+  }
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+  /* Stil kuralları buraya gelecek */
+  .hamburger_menu {
+    display: none;
+  }
+}
