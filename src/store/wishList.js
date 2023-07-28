@@ -21,7 +21,14 @@ export const wishSlice = createSlice({
   initialState,
   reducers: {
     addWish: (state, actions) => {
-      state.data.unshift(actions.payload.data);
+      const existingProduct = state.data.find(
+        (pr) => pr.id === actions.payload.data.id
+      );
+      if (existingProduct) {
+        state.data = state.data.filter((pr) => pr.id !== existingProduct.id);
+      } else {
+        state.data.unshift(actions.payload.data);
+      }
     },
     setAnimation: (state, action) => {
       state.isWishAnimation = action.payload;

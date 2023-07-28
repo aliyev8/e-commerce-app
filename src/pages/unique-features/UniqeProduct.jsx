@@ -1,7 +1,38 @@
 import UniqueBackgroundIcon from "../../assets/icons/UniqueBackgroundIcon";
 import "./uniqueProduct.scss";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { useDispatch } from "react-redux";
+import { addCart, toggleAnimation } from "../../store/cart";
 
 function UniqeProduct() {
+  const dispatch = useDispatch();
+
+  const handleAddCart = (e) => {
+    e.stopPropagation();
+    dispatch(
+      addCart({
+        data: {
+          category: "special-offer",
+          id: 15,
+          name: "Cantilever chair",
+          stars: 2,
+          fullImage:
+            "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+          price: "$42.00",
+          oldPrice: "$62.00",
+          code: "Y523201",
+          image:
+            "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp",
+          variusTempor:
+            "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+          moreDetails:
+            "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+        },
+      })
+    );
+    dispatch(toggleAnimation());
+  };
+
   return (
     <div className="unique_product">
       <div className="unique_product__container custom-container">
@@ -40,7 +71,9 @@ function UniqeProduct() {
           </div>
 
           <div className="shop_now">
-            <div className="btn">Add to cart</div>
+            <div onClick={(e) => handleAddCart(e)} className="btn">
+              Add to cart
+            </div>
             <div className="price">
               <div>
                 <span className="info">B&B</span>

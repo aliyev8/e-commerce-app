@@ -1,32 +1,34 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
 import CartIcon from "../../../assets/icons/CartIcon";
 import FavIcon from "../../../assets/icons/FavIcon";
 import SaleIcon from "../../../assets/icons/SaleIcon";
 import ZoomIcon from "../../../assets/icons/ZoomIcon";
 import data from "../../../mock-data/mockData.json";
 import { addWish, toggleWishAnimation } from "../../../store/wishList";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { handleZoom } from "../../../store/zoom";
 import ZoomItem from "../../zoom-item/ZoomItem";
+import { addCart, toggleAnimation } from "../../../store/cart";
+import { useNavigate } from "react-router-dom";
 
-function LeatestItem() {
-  const { leatestCategory } = useParams();
+function LeatestItem({ leatestCategory, variants }) {
   const [filteredProducts, setFilteredProducts] = useState(null);
   const dispatch = useDispatch();
   const { isZoom } = useSelector((state) => state.zoomSlice);
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     const filtered = data.leatestProducts.filter((pro) => {
       return leatestCategory
-        ? pro.category === leatestCategory
-        : pro.category === "new-arrival";
+        ? pro.subCategory === leatestCategory
+        : pro.subCategory === "new-arrival";
     });
 
     setTimeout(() => {
       setFilteredProducts(filtered);
-    }, 1000);
+    }, 100);
   }, [leatestCategory]);
 
   if (!filteredProducts) {
@@ -44,19 +46,35 @@ function LeatestItem() {
     dispatch(handleZoom({ data: item, isZoom: true }));
   };
 
+  const handleAddCart = (e, item) => {
+    e.stopPropagation();
+    dispatch(addCart({ data: item }));
+    dispatch(toggleAnimation());
+  };
+
+  const goProduct = (go) => {
+    navigate(go);
+  };
+
   return (
     <>
       {isZoom && <ZoomItem />}
 
       {filteredProducts.map((item, key) => {
         return (
-          <motion.div layoutId={item.id} key={key} className="item_container">
+          <motion.div
+            onClick={() => goProduct(`leatestProducts/${item.id}`)}
+            variants={variants}
+            layoutId={item.id}
+            key={key}
+            className="item_container"
+          >
             <div className="sale_container">
               <SaleIcon />
               <span>Sale</span>
             </div>
             <div className="cart_detail">
-              <span>
+              <span onClick={(e) => handleAddCart(e, item)}>
                 <CartIcon size={20} color="#2f1ac4" />
               </span>
 
@@ -74,7 +92,7 @@ function LeatestItem() {
             <div className="bottom">
               <div className="name">{item.name}</div>
               <div className="price">
-                <span className="new_price">{item.price}</span>
+                <span className="new_price">{`$${item.price}`}</span>
                 <span className="old_price">{item.oldPrice}</span>
               </div>
             </div>

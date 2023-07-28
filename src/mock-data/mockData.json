@@ -2,10 +2,14 @@
   "featuredProducts": [
     {
       "id": 1,
+      "quantity": 1,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "category": "featuredProducts",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120872/image1164_qhs1oi.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -16,13 +20,19 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 2,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 4,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
       "colors": [
         {
@@ -34,13 +44,18 @@
         {
           "color": "#FFEAC1"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 3,
+      "quantity": 1,
+      "stars": 2,
+      "category": "featuredProducts",
       "code": "Y523201",
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "price": 42,
       "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
       "colors": [
         {
@@ -52,14 +67,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 4,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "name": "Watch",
+      "stars": 1,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120876/unnamed1_ekswkv.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -70,14 +91,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 5,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "name": "Headphone",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 420,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120873/purepng1_bxuynf.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -88,14 +115,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 6,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "name": "Canon",
+      "stars": 5,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120873/cam2_kukfdt.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -106,14 +139,20 @@
         {
           "color": "#FFEAC1"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 7,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "name": "Watch",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 260,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120874/1562173100-movado-connect-15621730942_xwu5i5.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -124,14 +163,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 8,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "name": "Chair",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 40,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690120872/image1164_qhs1oi.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -142,14 +187,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 9,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
+      "name": "Soft chair",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 142,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689507541/Home-Stylish-Club-Sofa-Chair-Pleated-Sofa-Armchair-with-Golden-Legs_1_f53qxj.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -160,13 +211,19 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 10,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
       "colors": [
         {
@@ -178,14 +235,20 @@
         {
           "color": "#FFEAC1"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 11,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "name": "chair",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 210,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086110/image_1166_tvchd9.webp",
       "colors": [
         {
           "color": "#05E6B7"
@@ -196,14 +259,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 12,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "name": "Phone",
+      "stars": 5,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 422,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1654082438/iphone-13-pro-max-blue-select_1_1_s5isx9.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -214,13 +283,19 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 13,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689007903/image_1168_lhfpoh.svg",
       "colors": [
         {
@@ -232,14 +307,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 14,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008020/image_1_rnpssl.svg",
+      "name": "Notebook",
+      "stars": 5,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 477,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1647026321/csm_ThinkPad_T16_AMD_Black_05_b3a14b87ea_wyimgs.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -250,14 +331,20 @@
         {
           "color": "#FFEAC1"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 15,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008090/image_1169_dn0iz4.svg",
+      "name": "Noteb0ok",
+      "stars": 4,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 324,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1647026321/csm_ThinkPad_T16_AMD_Black_06_09426e406d_exvj4e.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -268,14 +355,20 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "id": 16,
+      "quantity": 1,
+      "category": "featuredProducts",
       "code": "Y523201",
-      "name": "Cantilever chair",
-      "price": "$42.00",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689008097/image_3_nihhr8.svg",
+      "name": "Notebook",
+      "stars": 4,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 429,
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1647026321/csm_ThinkPad_T14_Gen_3_Intel_Black_16_fb8864f60f_sbxqby.png",
       "colors": [
         {
           "color": "#05E6B7"
@@ -286,227 +379,644 @@
         {
           "color": "#00009D"
         }
-      ]
+      ],
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     }
   ],
 
   "leatestProducts": [
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 1,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 5,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086110/image_1166_tvchd9.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086110/image_1166_tvchd9.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 2,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086617/asdasd_bnvmns.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086617/asdasd_bnvmns.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 3,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 3,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 4,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 5,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "new-arrival",
+      "subCategory": "new-arrival",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 6,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "best-seller",
+      "subCategory": "best-seller",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 7,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "best-seller",
+      "subCategory": "best-seller",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 8,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "best-seller",
+      "subCategory": "best-seller",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 9,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "featured",
+      "subCategory": "featured",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 10,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "featured",
+      "subCategory": "featured",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 11,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "featured",
+      "subCategory": "featured",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 12,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "special-offer",
+      "subCategory": "special-offer",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 12,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086099/image_3_mimcf2.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "special-offer",
+      "subCategory": "special-offer",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 14,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086101/image_32_nr8pui.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     },
     {
-      "category": "special-offer",
+      "subCategory": "special-offer",
+      "category": "leatestProducts",
+      "quantity": 1,
       "id": 15,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086107/image_1168_b1dfdd.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "colors": [
+        {
+          "color": "#05E6B7"
+        },
+        {
+          "color": "#F701A8"
+        },
+        {
+          "color": "#00009D"
+        }
+      ]
     }
   ],
 
   "trendingProducts": [
     {
       "category": "stand",
+      "quantity": 1,
       "id": 1,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585939/image_1171_rcq1o1.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585939/image_1171_rcq1o1.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "stand",
+      "quantity": 1,
       "id": 2,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585936/image_1170_jo5arl.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585936/image_1170_jo5arl.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "stand",
+      "quantity": 1,
       "id": 3,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 4,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585935/image_31_zynqcg.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689585935/image_31_zynqcg.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "stand",
+      "quantity": 1,
       "id": 434,
       "name": "Cantilever chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689086103/image_23_fe2a3z.webp",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "all_product",
+      "quantity": 1,
       "background": "#FFF6FB",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
       "id": 424234242,
       "description": "23% off in all products",
-      "price": "$42.00",
+      "price": 42,
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586043/image_1162_x1be0t.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586043/image_1162_x1be0t.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "collection",
+      "quantity": 1,
       "background": "#EEEFFB",
       "id": 4112333,
       "description": "23% off in all products",
-      "price": "$42.00",
+      "price": 42,
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586042/image_1161_o0esfk.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586042/image_1161_o0esfk.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "chair",
+      "quantity": 1,
       "id": 41256,
       "name": "Executive Seat chair",
-      "price": "$42.00",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "chair",
+      "quantity": 1,
       "id": 412532323236,
       "name": "Executive Seat chair",
-      "price": "$42.00",
+      "stars": 2,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586039/image_28_mu7yet.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586039/image_28_mu7yet.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
     },
     {
       "category": "chair",
+      "quantity": 1,
       "id": 41250909096,
       "name": "Executive Seat chair",
-      "price": "$42.00",
+      "stars": 4,
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690018584/rectangle138_b0hnj2.png",
+      "price": 42,
       "oldPrice": "$62.00",
       "code": "Y523201",
-      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png"
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689586111/image_19_zziwze.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr ."
+    }
+  ],
+  "blogHighlight": [
+    {
+      "id": 4200003030,
+      "author": "SaberAli",
+      "createDate": "21 August,2020",
+      "comments": [
+        {
+          "id": 1,
+          "fullName": "John Doe",
+          "comment": "This blog is amazing!",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543590/rectangle59_nfoq8x.png",
+          "date": "2023-07-18"
+        },
+        {
+          "id": 3,
+          "fullName": "Michael Johnson",
+          "comment": "Thanks for sharing this information.",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543599/rectangle59_1_cc8oii.png",
+          "date": "2023-07-16"
+        }
+      ],
+      "videoThumb": [
+        {
+          "id": 1,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487839/rectangle70_1_hyg8dh.png",
+          "video": "Ajf-IG7nyYg"
+        },
+        {
+          "id": 2,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487838/rectangle70_pc65wk.png",
+          "video": "Ajf-IG7nyYg"
+        }
+      ],
+      "title": "Top esssential Trends in 2021",
+      "content": "More off this less hello samlande lied much over tightly circa horse taped mightly",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689930458/jiujvqe2zhg_kv1ruh.png",
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690470900/bruce-mars-FWVMhUa_wbY-unsplash_2_wcvj84.png",
+      "variusTempor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+      "moreDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc,"
+    },
+    {
+      "id": 420000300030,
+      "author": "Surfauxion",
+      "createDate": "21 August,2020",
+      "comments": [
+        {
+          "id": 1,
+          "fullName": "John Doe",
+          "comment": "This blog is amazing!",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543590/rectangle59_nfoq8x.png",
+          "date": "2023-07-18"
+        },
+        {
+          "id": 3,
+          "fullName": "Michael Johnson",
+          "comment": "Thanks for sharing this information.",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543599/rectangle59_1_cc8oii.png",
+          "date": "2023-07-16"
+        }
+      ],
+      "videoThumb": [
+        {
+          "id": 1,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487839/rectangle70_1_hyg8dh.png",
+          "video": "Ajf-IG7nyYg"
+        },
+        {
+          "id": 2,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487838/rectangle70_pc65wk.png",
+          "video": "Ajf-IG7nyYg"
+        }
+      ],
+      "title": "Top esssential Trends in 2021",
+      "content": "More off this less hello samlande lied much over tightly circa horse taped mightly",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689929744/2dcyhvbhv-m_rwwkdg.png",
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690470901/bruce-mars-FWVMhUa_wbY-unsplash_3_fxpjsm.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
+    },
+    {
+      "id": 42000021300030,
+      "author": "SaberAli",
+      "createDate": "21 August,2020",
+      "comments": [
+        {
+          "id": 1,
+          "fullName": "John Doe",
+          "comment": "This blog is amazing!",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543590/rectangle59_nfoq8x.png",
+          "date": "2023-07-18"
+        },
+        {
+          "id": 3,
+          "fullName": "Michael Johnson",
+          "comment": "Thanks for sharing this information.",
+          "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690543599/rectangle59_1_cc8oii.png",
+          "date": "2023-07-16"
+        }
+      ],
+      "videoThumb": [
+        {
+          "id": 1,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487839/rectangle70_1_hyg8dh.png",
+          "video": "Ajf-IG7nyYg"
+        },
+        {
+          "id": 2,
+          "thumb": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690487838/rectangle70_pc65wk.png",
+          "video": "Ajf-IG7nyYg"
+        }
+      ],
+      "title": "Top esssential Trends in 2021",
+      "content": "More off this less hello samlande lied much over tightly circa horse taped mightly",
+      "image": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1689929742/2dcyhvbhv-m_1_rszwvk.png",
+      "fullImage": "https://res.cloudinary.com/dawsyfhbt/image/upload/v1690470902/bruce-mars-FWVMhUa_wbY-unsplash_4_cvdf08.png",
+      "variusTempor": "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "moreDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
     }
   ]
 }

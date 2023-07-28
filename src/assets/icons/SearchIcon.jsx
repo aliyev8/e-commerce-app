@@ -20,8 +20,8 @@ function SearchIcon() {
           y2="16.376"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#F3F9FF" />
-          <stop offset="1" stopColor="#F1F0FF" />
+          <stop stopColor="#000" />
+          <stop offset="1" stopColor="#000" />
         </linearGradient>
       </defs>
     </svg>

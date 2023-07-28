@@ -1,6 +1,7 @@
-import Body from "../components/body/Body";
+import { Outlet } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+
 import "./layout.scss";
 
 function MainLayout() {
@@ -11,7 +12,7 @@ function MainLayout() {
       </div>
 
       <div className="grid_item body">
-        <Body />
+        <Outlet />
       </div>
 
       <div className="grid_item footer">

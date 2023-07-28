@@ -34,6 +34,8 @@
         .image_container {
           background-color: $trending-background;
           padding: 1.6875rem 1.5625rem 1.75rem 1.5625rem;
+          display: flex;
+          justify-content: center;
 
           img {
             width: 11.6875rem;
@@ -80,14 +82,7 @@
         }
 
         .btn {
-          font-size: 1rem;
-          font-style: normal;
-          font-weight: 600;
-          line-height: normal;
-          text-decoration-line: underline;
-          color: $pink;
-          padding-top: 16px;
-          cursor: pointer;
+          @include underline_btn;
         }
 
         .image {

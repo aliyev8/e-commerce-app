@@ -1,0 +1,28 @@
+@import "../../assets/mixins";
+
+.subscribe_section {
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+  background-image: url("https://res.cloudinary.com/dawsyfhbt/image/upload/v1689926110/rectangle102_jexzcy.png");
+  height: 28rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+
+  span {
+    @include title_category;
+    max-width: 550px;
+    text-align: center;
+    line-height: 155%;
+  }
+
+  button {
+    @include shop_now_btn;
+    cursor: pointer;
+  }
+}

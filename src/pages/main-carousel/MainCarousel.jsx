@@ -2,12 +2,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useSelector } from "react-redux";
+import { motion } from "framer-motion";
 
 import "./mainCarousel.scss";
 function MainCarousel() {
   const { isOpen } = useSelector((state) => state.hamburgerSlice);
 
-  console.log(isOpen);
   var settings = {
     className: isOpen ? "slider_container hidden_slider" : "slider_container",
     dots: true,
@@ -23,7 +23,12 @@ function MainCarousel() {
 
   return (
     <Slider {...settings}>
-      <div className="item">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="item"
+      >
         <div className="item__left">
           <img
             src="https://res.cloudinary.com/dawsyfhbt/image/upload/v1688904811/image_32_g7mkxq.svg"
@@ -59,7 +64,7 @@ function MainCarousel() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className="item">
         <div className="item__left">
           <img

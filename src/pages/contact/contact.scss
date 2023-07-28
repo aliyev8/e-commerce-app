@@ -1,0 +1,218 @@
+@import "../../assets/colors";
+@import "../../assets/mixins";
+
+.contact_container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 7rem 0;
+  gap: 3rem;
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .title {
+      @include title_category;
+      font-size: 2.25rem;
+    }
+
+    p {
+      @include highlight_content;
+    }
+
+    .colors {
+      display: flex;
+      gap: 1rem;
+
+      .color {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        padding: 10px;
+      }
+
+      .color1 {
+        background-color: #5625df;
+      }
+      .color2 {
+        background-color: #ff27b7;
+      }
+      .color3 {
+        background-color: #37daf3;
+      }
+    }
+  }
+
+  .contact_way {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: auto;
+
+    .title {
+      @include title_category;
+      font-size: 2.25rem;
+    }
+    .way_grid {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 1rem;
+
+      .way {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .color {
+          padding: 20px;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+        }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          color: $lorem;
+          font-size: 1rem;
+          gap: 0;
+          line-height: 1rem;
+        }
+      }
+
+      .way1 {
+        .color {
+          background-color: #5726df;
+        }
+      }
+
+      .way2 {
+        .color {
+          background-color: $pink;
+        }
+      }
+
+      .way3 {
+        .color {
+          background-color: #ffb265;
+        }
+      }
+
+      .way4 {
+        .color {
+          background-color: $successBtn;
+        }
+      }
+    }
+  }
+
+  .get_in {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .title {
+      @include title_category;
+      font-size: 2.25rem;
+    }
+
+    p {
+      @include highlight_content;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+
+      input {
+        height: 2.8125rem;
+        border: 1px solid $gray-border;
+        border-radius: 4px;
+        padding-left: 8px;
+
+        &::placeholder {
+          color: $lorem;
+        }
+      }
+
+      textarea {
+        resize: none;
+        border: 1px solid $gray-border;
+        border-radius: 4px;
+        height: 10.375rem;
+        padding: 8px;
+        font-family: sans-serif;
+
+        &::placeholder {
+          color: $lorem;
+        }
+      }
+
+      .name {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+          width: 48%;
+        }
+      }
+      .btn_container {
+        .loading {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .loader {
+            width: 26px;
+            height: 26px;
+          }
+        }
+        button {
+          @include shop_now_btn;
+          width: 150px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .customers {
+    img {
+      width: 90%;
+    }
+  }
+}
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .contact_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 7rem 0;
+    gap: 3rem;
+
+    .contact_way {
+      margin-left: 0;
+
+      .way_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 1rem;
+      }
+    }
+
+    .customers {
+      display: none;
+    }
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+}

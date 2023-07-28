@@ -1,0 +1,56 @@
+@import "../../assets/mixins";
+@import "../../assets/colors";
+
+.order_complete {
+  padding: 6rem;
+
+  .complete {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    border-bottom: 1px dashed $gray-border;
+    border-left: 1px dashed $gray-border;
+    padding: 3rem;
+    position: relative;
+
+    div {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .background {
+        position: absolute;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+      }
+    }
+
+    .title {
+      @include title_category;
+      color: $product_title_dark;
+    }
+
+    h3 {
+      @include highlight_content;
+    }
+
+    a {
+      @include shop_now_btn;
+    }
+
+    .clock {
+      position: absolute;
+      left: -48px;
+      top: 0;
+    }
+
+    .checkout {
+      position: absolute;
+      bottom: -30px;
+      right: -14px;
+    }
+  }
+}

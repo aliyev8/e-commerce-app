@@ -6,10 +6,11 @@ import FavIcon from "../../assets/icons/FavIcon";
 import CartIcon from "../../assets/icons/CartIcon";
 import HeaderBottom from "./HeaderBottom";
 import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const { isWishAnimation } = useSelector((state) => state.wishList);
-  const { isCartAnimation } = useSelector((state) => state.cartSlice);
+  const { isCartAnimation, data } = useSelector((state) => state.cartSlice);
 
   return (
     <div>
@@ -34,14 +35,25 @@ function Header() {
                 <span className="sub">Wish list</span> <FavIcon />
               </div>
 
-              <div className={isCartAnimation ? "cart cart_animation" : "cart"}>
+              <NavLink to="myCart" className="cart">
                 <CartIcon />
-              </div>
+                <span
+                  className={
+                    isCartAnimation
+                      ? "cart_animation productCount"
+                      : "productCount"
+                  }
+                >
+                  {data.length > 0 && data.length}
+                </span>
+              </NavLink>
             </div>
           </div>
         </div>
       </div>
-      <HeaderBottom />
+      <div className="bottom">
+        <HeaderBottom />
+      </div>
     </div>
   );
 }

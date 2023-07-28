@@ -1,0 +1,15 @@
+@import "../../assets/colors";
+
+.notification_container {
+  position: sticky;
+  bottom: 20px;
+  text-align: end;
+
+  span {
+    background-color: $successBtn;
+    padding: 12px;
+    margin-right: 20px;
+    border-radius: 8px;
+    color: #fff;
+  }
+}

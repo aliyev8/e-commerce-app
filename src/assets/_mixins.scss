@@ -8,6 +8,31 @@
   line-height: normal;
 }
 
+@mixin shop_now_btn {
+  color: #fff;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02125rem;
+  background-color: $pink;
+  padding: 15px;
+  border-radius: 0.125rem;
+  font-weight: 400;
+  font-family: Lato;
+  border: none;
+
+  &:disabled {
+    background-color: $gray-border;
+  }
+}
+
+@mixin base_input {
+  border-radius: 0.1875rem;
+  opacity: 0.44999998807907104;
+  background: var(--white, #fff);
+}
+
 @mixin product_list_category {
   color: $navy-blue;
   cursor: pointer;
@@ -32,5 +57,107 @@
   .old_price {
     text-decoration: line-through;
     color: $pink;
+  }
+}
+
+@mixin simple_text {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: $navy-blue;
+}
+
+@mixin highlight_content {
+  color: $content_highlight_color;
+  font-family: Lato;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+@mixin underline_btn {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: $navy-blue;
+  padding-top: 16px;
+  cursor: pointer;
+  transition: 250ms all;
+
+  &:hover {
+    text-decoration-line: underline;
+    color: $pink;
+  }
+}
+
+@mixin product_name {
+  color: $product_title_dark;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@mixin product_category {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: $navy-blue;
+  transition: 250ms all;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+@mixin increase {
+  padding: 4px;
+  flex-shrink: 0;
+  background-color: $increase_background;
+  color: $cartQuantityCount;
+  border: none;
+  cursor: pointer;
+  transition: 250ms all;
+
+  &:not([disabled]) {
+    &:hover {
+      color: $navy-blue;
+      transform: scale(1.1);
+    }
+  }
+}
+
+@mixin blog_author_bar {
+  display: flex;
+  gap: 1rem;
+
+  .name {
+    background-color: $author_background;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 300;
+  }
+  .date {
+    background-color: $date_background;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 300;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.5rem;
+      display: block;
+    }
   }
 }

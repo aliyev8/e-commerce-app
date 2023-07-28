@@ -18,7 +18,6 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .custom-container {
@@ -31,4 +30,8 @@ body {
 
 .hidden_slider {
   z-index: -1 !important;
+}
+.App {
+  height: 100vh;
+  overflow-y: hidden;
 }

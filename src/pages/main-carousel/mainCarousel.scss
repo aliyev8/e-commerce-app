@@ -5,6 +5,7 @@
   display: grid;
   background-color: $carousel-background;
   padding: 0 0 40px 0;
+  overflow-x: hidden;
 
   .slick-dots {
     position: absolute;

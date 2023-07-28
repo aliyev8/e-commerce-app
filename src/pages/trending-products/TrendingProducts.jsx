@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./trendingProducts.scss";
 import data from "../../mock-data/mockData.json";
+import { NavLink } from "react-router-dom";
 
 function TrendingProducts() {
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -28,7 +29,6 @@ function TrendingProducts() {
   }, []);
 
   if (!collection && !filteredProducts) return "...loading";
-  console.log(collection);
 
   return (
     <div className="trending_product">
@@ -37,7 +37,11 @@ function TrendingProducts() {
         <div className="trending_card">
           {filteredProducts.map((card, key) => {
             return (
-              <div key={key} className="card">
+              <NavLink
+                to={`trendingProducts/${card.id}`}
+                key={key}
+                className="card"
+              >
                 <div className="image_container">
                   <img src={card.image} alt="" />
                 </div>
@@ -48,7 +52,7 @@ function TrendingProducts() {
                     <span className="old_price">{card.oldPrice}</span>
                   </div>
                 </div>
-              </div>
+              </NavLink>
             );
           })}
         </div>
@@ -70,7 +74,9 @@ function TrendingProducts() {
                 }
               >
                 <div className="description"> {col.description}</div>
-                <div className="btn">Shop now</div>
+                <NavLink to={`trendingProducts/${col.id}`} className="btn">
+                  Shop now
+                </NavLink>
                 <div className="image">
                   <img src={col.image} alt="" />
                 </div>
@@ -81,7 +87,11 @@ function TrendingProducts() {
           <div className="chairs_container">
             {chairs.map((ch, i) => {
               return (
-                <div key={i} className="chair">
+                <NavLink
+                  to={`trendingProducts/${ch.id}`}
+                  key={i}
+                  className="chair"
+                >
                   <div className="image">
                     <img src={ch.image} alt="" />
                   </div>
@@ -89,7 +99,7 @@ function TrendingProducts() {
                     <div>{ch.name}</div>
                     <div className="old_price">{ch.oldPrice}</div>
                   </div>
-                </div>
+                </NavLink>
               );
             })}
           </div>

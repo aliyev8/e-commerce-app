@@ -3,6 +3,8 @@ import hamburgerSlice from "./hamburger.js";
 import wishList from "./wishList.js";
 import cartSlice from "./cart.js";
 import zoomSlice from "./zoom.js";
+import notificationSlice from "./notification";
+import modalSlice from "./modal";
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +12,7 @@ export const store = configureStore({
     wishList,
     cartSlice,
     zoomSlice,
+    notificationSlice,
+    modalSlice,
   },
 });

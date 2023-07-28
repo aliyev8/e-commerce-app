@@ -21,7 +21,23 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     addCart: (state, actions) => {
-      state.data.unshift(actions.payload.data);
+      const existingProduct = state.data.find(
+        (pr) => pr.id === actions.payload.data.id
+      );
+
+      if (existingProduct) {
+        state.data = state.data.filter((pr) => pr.id !== existingProduct.id);
+      } else {
+        state.data.unshift(actions.payload.data);
+      }
+    },
+    increaseQuantity: (state, actions) => {
+      const currentProduct = state.data.find((pr) => pr.id === actions.payload);
+      currentProduct.quantity++;
+    },
+    decreaseQuantity: (state, actions) => {
+      const currentProduct = state.data.find((pr) => pr.id === actions.payload);
+      currentProduct.quantity--;
     },
     setAnimation: (state, action) => {
       state.isCartAnimation = action.payload;
@@ -29,6 +45,7 @@ export const cartSlice = createSlice({
   },
 });
 
-export const { addCart, setAnimation } = cartSlice.actions;
+export const { addCart, setAnimation, increaseQuantity, decreaseQuantity } =
+  cartSlice.actions;
 
 export default cartSlice.reducer;
