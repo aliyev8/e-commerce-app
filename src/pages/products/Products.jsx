@@ -17,7 +17,7 @@ function Products() {
       ? setTimeout(() => {
           const sorted = products.sort((a, b) => b?.stars - a?.stars);
           setProducts([...sorted]);
-          console.log(products);
+
           setLoading(false);
         }, 1000)
       : setTimeout(() => {

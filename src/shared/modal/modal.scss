@@ -8,3 +8,27 @@
   background-color: rgba(0, 0, 0, 0.275);
   z-index: 1000;
 }
+
+/* Small devices (mobil) */
+@media only screen and (max-width: 600px) {
+  .video-responsive {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (tablet) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .video-responsive {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+/* Large devices (desktop) */
+@media only screen and (min-width: 1025px) {
+  .video-responsive {
+    width: 800px;
+    height: 450px;
+  }
+}
