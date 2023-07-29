@@ -3,6 +3,7 @@ import data from "../../mock-data/mockData.json";
 import AuthorIcon from "../../assets/icons/AuthorIcon";
 import CalendarIcon from "../../assets/icons/CalendarIcon";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function LeatestBlog() {
   const [loading, setLoading] = useState(true);
@@ -35,7 +36,9 @@ function LeatestBlog() {
                   </div>
                   <span className="title">{blog.title}</span>
                   <span className="content">{blog.content}</span>
-                  <span className="read_more">Read more</span>
+                  <Link to={`blog/${blog.id}`} className="read_more">
+                    Read more
+                  </Link>
                 </div>
               </div>
             );
